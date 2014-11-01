@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>My Friends Kids</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style type="text/css">
+body { margin: 0;}
+.page {
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.page-1 {
+	background: blue;
+}
+
+.page-2 {
+	background: green;
+}
+
+
+.example-enter {
+	-webkit-transform: translateX(-100%);
+}
+
+.example-enter.example-enter-active {
+	-webkit-animation: reset .6s ease both;
+}
+
+.example-leave {
+	
+}
+
+.example-leave.example-leave-active {
+	-webkit-animation: moveToRight .6s ease both;
+}
+
+
+@-webkit-keyframes reset {
+	from { }
+	to { -webkit-transform: translateX(0); }
+}
+
+@-webkit-keyframes moveToLeft {
+	from { }
+	to { -webkit-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes moveToRight {
+	from { }
+	to { -webkit-transform: translateX(100%); }
+}
+
+</style>
+</head>
+<body>
+    <script type="text/javascript" src="build/bundle.js"></script>
+</body>
+</html>
